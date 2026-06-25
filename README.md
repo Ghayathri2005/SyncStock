@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SyncStock - Multi-Channel Inventory Management System
 
-## Getting Started
+SyncStock is a full-stack inventory management platform designed to help businesses efficiently manage products, track inventory levels, process orders, and monitor operational performance from a centralized dashboard. The application provides real-time inventory visibility, streamlined stock management, and actionable analytics to support data-driven decision-making.
 
-First, run the development server:
+Built with modern web technologies, SyncStock features a scalable architecture, intuitive user experience, and responsive design suitable for businesses operating across multiple sales channels.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Key Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* Real-time inventory tracking and stock monitoring
+* Multi-channel inventory synchronization (simulated)
+* Product catalog and stock management
+* Order processing and fulfillment tracking
+* Inventory analytics and performance insights
+* Low-stock alerts and inventory notifications
+* Activity logs and audit trail monitoring
+* Exportable CSV reports for inventory and sales data
+* Responsive design optimized for desktop, tablet, and mobile devices
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Technology Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Frontend
 
-## Learn More
+* Next.js 15 (App Router)
+* React 19
+* TypeScript
+* Tailwind CSS
+* Custom UI Components
+* Recharts for Data Visualization
+* Lucide React Icons
 
-To learn more about Next.js, take a look at the following resources:
+### State Management & Architecture
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* Zustand for Global State Management
+* Next.js API Routes
+* Component-Based Architecture
+* RESTful API Integration Ready
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎯 Project Objectives
 
-## Deploy on Vercel
+* Improve inventory visibility and accuracy
+* Reduce stock shortages and overstock situations
+* Streamline order and inventory workflows
+* Enable data-driven inventory planning
+* Provide a modern and scalable inventory management solution
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📈 Business Value
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+SyncStock helps organizations optimize inventory operations through centralized stock management, real-time tracking, and analytical insights. The platform improves operational efficiency, enhances inventory control, and supports informed business decisions through a unified management interface.
+
+
+
